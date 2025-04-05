@@ -101,6 +101,7 @@ Python으로 작성 가능한 게임 등의 멀티미디어 표현을 위한 라
 3.실제 사례
 
 스타벅스의 상권 분석 시스템
+![스타벅스 로고](다운로드.jpg)
 
 스타벅스에서는 파이썬의 기술 스택인 pandas,numpy,scikit-learn,folium / geopandas,matplotlib, seaborn들을 이용해 상권 분석 시스템을 구축하였습니다
 
