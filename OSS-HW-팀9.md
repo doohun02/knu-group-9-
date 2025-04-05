@@ -122,6 +122,27 @@ Python Virtual Machine (PVM): 바이트 코드는 PVM(파이썬 가상 머신)�
 
 패키지: 관련된 모듈을 묶은 디렉토리로, 패키지 내부의 모듈을 import하여 사용할 수 있습니다.
 
+7. 고차 함수와 람다 함수 (
+파이썬은 고차 함수를 지원합니다. 고차 함수는 다른 함수를 인자로 받거나 결과로 반환하는 함수입니다.
+
+람다 함수는 짧은 익명 함수를 정의할 때 사용됩니다. 이는 함수를 간단히 표현할 수 있는 방법입니다.
+
+8. 에러 처리 (Error Handling)
+파이썬은 예외 처리를 통해 오류를 관리합니다. try, except, else, finally 블록을 사용하여 예외를 처리합니다.
+
+try:
+    x = 1 / 0  # ZeroDivisionError
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+finally:
+    print("Execution complete")
+
+9. 비동기 프로그래밍 (Asynchronous Programming)
+파이썬은 비동기 프로그래밍을 위한 asyncio 라이브러리를 제공합니다. 이를 통해 I/O 바운드 작업을 효율적으로 처리할 수 있습니다.
+
+async/await 구문을 사용하여 비동기 함수와 작업을 정의할 수 있습니다.
+
+
 
 # (6) 파이썬 미래발전방향 - 임승찬
 
